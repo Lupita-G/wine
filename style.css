@@ -95,7 +95,7 @@ body {
     padding-left: 8px;
 }
 .maridajes-container {
-    margin: 0 10% 0 10%;
+    margin: 0 10% 10% 10%;
 }
 
 .maridajes-container .cartel .letrero h2 {
@@ -140,4 +140,50 @@ body {
     background-color: black;
     border: none;
 }
-
+.card button:hover {
+    background-color: #f5f5dc;
+    color: black;
+    border: solid 1px black;
+}
+.promo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+.media {
+    background-color: black;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 0 0 0 100px;
+}
+.media img {
+    width: 200px;
+}
+.media .media-body h5 {
+    font-family: 'Courgette', cursive;
+    color: #bdb76b;
+    font-size: 25px;
+}
+.media .media-body .media-p {
+    padding-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: #dcdcdc;
+    font-size: 18px;
+}
+.footer {
+    background-color: #bdb76b;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: 'Poppins', sans-serif;
+}
+.footer .contacto {
+    text-align: center;
+    padding-top: 10px;
+}
+.email {
+    text-align: center;
+    padding-top: 15px;
+}
+.footer .redes {
+    padding-top: 15px;
+}
