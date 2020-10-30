@@ -108,3 +108,36 @@ body {
 .maridajes-container .images-maridajes .carousel .carousel-item img {
     width: 100%;
 }
+.card {
+    background-color: #bdb76b;
+    border-radius: 8px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.card video {
+    width: 100%;
+}
+.card-body h4 {
+    font-family: 'Courgette', cursive;
+    font-weight: 400;
+    text-align: left;
+}
+.card-body p {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+.list-group .list-group-item {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border: none;
+    background-color: #dcdcdc;
+}
+.card button {
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: black;
+    border: none;
+}
+
