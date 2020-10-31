@@ -198,7 +198,10 @@ header .navbar .navbar-toggler {
     }
     .promo .card {
         margin: auto;
-    } 
+    }
+    .promo .card ul input {
+        width: auto;
+    }
     .promo .media {
         display: block;
         margin: auto;
