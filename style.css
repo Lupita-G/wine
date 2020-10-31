@@ -1,45 +1,15 @@
 body {
     background-color: black;
 }
-.navbar {
-    background-color: black;
-    padding: 20px 10px 20px 30px;
-    position: absolute;
-}
-.navbar .nav-item .nav-link {
-    color: #ffffff;
-    font-size: 18px;
+header > * {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-}
-.navbar .nav-item .dropdown-menu {
+    font-size: 16px;
     background-color: black;
 }
-.navbar .nav-item .dropdown-menu .dropdown-item {
-    background-color: black;
-}
-.navbar .navbar-brand {
-    color: #ffffff;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-}
-.navbar .navbar-brand a:hover {
-    color: #bdb76b;
-}
-.navbar .navbar-nav .nav-item a:hover {
-    color: #bdb76b;
-}
-.navbar .navbar-nav .dropdown-menu .dropdown-item img {
-    width: 30px;
-}
-.navbar-light .navbar-toggler {
+header .navbar .navbar-toggler {
     border-color: #bdb76b;
-    color: white;
 }
-.navbar .navbar-collapse .form-inline button {
-    color: #bdb76b;
-}
+
 
 .main {
     background-image: url(https://cdn.pixabay.com/photo/2017/03/27/21/04/wine-2180278_960_720.jpg);
@@ -187,3 +157,69 @@ body {
 .footer .redes {
     padding-top: 15px;
 }
+
+@media(max-width: 415px) {
+    .navbar {
+        font-size: 16px;
+    }
+    .main h1 {
+        font-size: 35px;
+        margin-left: 0;
+        margin-top: 100px;
+    }
+    .viñedos-seccion {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px 0 10px 0px;
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-bottom: 20px;
+    }
+    .viñedos-content h3 {
+        font-size: 20px;
+        color: black;
+    }
+    .viñedos-content p {
+        font-size: 16px;
+        font-weight: 200;
+    }
+    .maridajes-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .maridajes-container .row .cartel .letrero h2 {
+        font-size: 35px;
+        padding: 0;
+    }
+    .promo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .promo .card {
+        margin: auto;
+    } 
+    .promo .media {
+        display: block;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+    .promo .media img {
+        vertical-align: auto;
+    }
+    .promo .media .media-body p {
+        padding: 5px;
+        font-size: 16px;
+    }
+    .media .media-body h5 {
+        font-size: 20px;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+    }
+}
+
+
