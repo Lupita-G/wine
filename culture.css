@@ -38,6 +38,7 @@ header .navbar .navbar-toggler {
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
+    margin-bottom: 50px;
 }
 .card-body .btn {
     font-family: 'Poppins', sans-serif;
@@ -79,4 +80,18 @@ header .navbar .navbar-toggler {
 }
 .footer .redes {
     padding-top: 15px;
+}
+@media(max-width: 415px) {
+    .main .portada h1 {
+        font-size: 35px;
+        text-align: left;
+        margin: 90px 0 0 20px ;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .row .col-sm-6 .card {
+        margin-bottom: 3px;
+    }
 }
